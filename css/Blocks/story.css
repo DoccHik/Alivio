@@ -1,0 +1,123 @@
+.story {
+    background-color: #245852;
+    padding: 229px 0px 176px 0px;
+    color: #fff;
+}
+
+.story-row {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.story-content {
+    margin: 0px 30px 0px 0px;
+    max-width: 580px;
+}
+
+.story-heading h2 {
+    font-family: "Georgia", serif;
+    font-size: 50px;
+    font-weight: 700;
+    line-height: 78px;
+    margin: 0px 0px 33px 0px;
+}
+
+.story-text p {
+    font-family: 'Lato', sans-serif;
+    font-size: 25px;
+    font-weight: 600;
+    line-height: 39px;
+    margin: 0px 0px 57px 0px;
+}
+
+.story-btn a {
+    padding: 20px 50px;
+}
+
+.story-video {
+    border-radius: 18px;
+    overflow: hidden;
+    max-width: 895px;
+    position: relative;
+}
+
+.story-video img {
+    border-radius: 18px;
+}
+
+.story-video-btn {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.story-video-overlay {
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.2);
+    border-radius: 18px;
+}
+
+.story-videp-object {}
+
+@media (max-width: 1199px) {
+    .story {
+        padding: 90px 0 90px;
+    }
+    .story-row {
+        flex-direction: column-reverse;
+    }
+    .story-video {
+        margin: 0px 0px 40px 0px;
+    }
+    .story-heading h2 {
+        font-family: "Georgia", serif;
+        font-size: 40px;
+        font-weight: 700;
+        line-height: 130%;
+        margin: 0px 0px 33px 0px;
+        text-align: center;
+    }
+    .story-text p {
+        font-family: 'Lato', sans-serif;
+        font-size: 20px;
+        font-weight: 600;
+        line-height: 30px;
+        margin: 0px 0px 57px 0px;
+        text-align: center;
+    }
+    .story-btn a {
+        padding: 20px 50px;
+    }
+    .story-btn {
+        display: flex;
+        justify-content: center;
+    }
+}
+
+@media (max-width: 991px) {
+    .story {
+        padding: 60px 0 60px;
+    }
+    .story-heading h2 {
+        font-family: "Georgia", serif;
+        font-size: 30px;
+        font-weight: 700;
+        line-height: 130%;
+        margin: 0px 0px 33px 0px;
+        text-align: center;
+    }
+    .story-text p {
+        font-family: 'Lato', sans-serif;
+        font-size: 18px;
+        font-weight: 600;
+        line-height: 21px;
+        margin: 0px 0px 57px 0px;
+        text-align: center;
+    }
+}

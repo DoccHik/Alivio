@@ -1,0 +1,16 @@
+.avatar {
+    text-align: center;
+}
+
+.avatar-img {
+    margin: 0px 0px 13px 0px;
+    width: 57px;
+    height: 57px;
+    object-fit: cover;
+    border-radius: 50%;
+}
+
+.avatar-name {
+    font-size: 12px;
+    line-height: 18px;
+}
